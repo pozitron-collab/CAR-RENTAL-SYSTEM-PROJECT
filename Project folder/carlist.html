@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cars available</title>
+
+</head>
+<style>
+body{
+    background-image: url('css/img/bg.jpg');
+    background-repeat: no-repeat;
+    /* background-position: 0px 0px 1000px 1000px;  */
+    /* background-size: 1550px; */
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 27px 16px;
+  background-color: white;
+  margin-top: -93px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.card img{
+  height:383px;
+}
+.logo img{
+    float: left;
+}
+b{
+    font-size: 40px;
+}
+</style>
+<body>
+    <div class="about-section">
+        <div class="logo">
+          <img src="css/img/logo.jpg" alt="">
+        </div>  
+            <h1><b><u>Cars Available</u></b></h1>
+            <br><br><br></div>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="css/img/verna.jfif"  style="width:100%">
+            <div class="container">
+              <h2>Verna</h2>
+              <p class="title">starts from &#8377;2k/day</p>
+              <p>2013 | diesel | auto | 2500km</p>
+              <p><button class="button">Book Now</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="css/img/baleno.jfif"  style="width:100%">
+            <div class="container">
+              <h2>Baleno</h2>
+              <p class="title">starts from &#8377;1k/day</p>
+              
+              <p>2013 | diesel | auto | 2500km</p>
+              <p><button class="button">Book Now</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="css/img/swiftdzire.jfif"  style="width:100%">
+            <div class="container">
+              <h2>Swift Dzire</h2>
+              <p class="title">starts from &#8377;1.5k/day</p>
+             
+              <p>2013 | diesel | auto | 2500km</p>
+              <p><button class="button">Book Now</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="css/img/fortuner.jfif"  style="width:100%">
+            <div class="container">
+              <h2>Fortuner</h2>
+              <p class="title">starts from &#8377;3k/day</p>
+              
+              <p>2013 | diesel | auto | 2500km</p>
+              <p><button class="button">Book Now</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="css/img/audi.jfif"  style="width:100%">
+            <div class="container">
+              <h2>Audi</h2>
+              <p class="title">starts from &#8377;8k/day</p>
+              <p>2013 | diesel | auto | 2500km</p>
+              <p><button class="button">Book Now</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="css/img/bmw.jfif"  style="width:100%">
+            <div class="container">
+              <h2>BMW</h2>
+              <p class="title">starts from &#8377;9k/day</p>
+              
+              <p>2013 | diesel | auto | 2500km</p>
+              <p><button class="button">Book Now</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="css/img/mercedes.jpg"  style="width:100%">
+            <div class="container">
+              <h2>Mercedes</h2>
+              <p class="title">starts from &#8377;7k/day</p>
+             
+              <p>2013 | diesel | auto | 2500km</p>
+              <p><button class="button">Book Now</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="css/img/ferrari.jpg"  style="width:100%">
+            <div class="container">
+              <h2>Ferrari</h2>
+              <p class="title">starts from &#8377;15k/day</p>
+              
+              <p>2013 | diesel | auto | 2500km</p>
+              <p><button class="button">Book Now</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>

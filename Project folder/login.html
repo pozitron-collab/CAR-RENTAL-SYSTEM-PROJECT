@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+  body{
+    background-image: url('css/img/bg.jpg');
+    background-repeat: no-repeat;
+    /* background-position: 0px 0px 1000px 1000px;  */
+    /* background-size: 1550px; */
+    background-attachment: fixed;
+    background-size: cover;
+  }
+    /* Bordered form */
+form {
+  border: 8px solid #7f1109;
+  border-radius: 49px;
+  width: 40%;
+  margin-left: 450px;
+  height: 600px;
+  background-color: #ec4060;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #1bd822;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 19%;
+  text-decoration: none;
+  margin-left: 232px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  text-decoration: none;
+  margin-left: 11px;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  font-size: 25px;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 30%;
+  border-radius: 50px;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+    text-decoration: none;
+  }
+}
+.cancelbtn a{
+    text-decoration: none;
+}
+.car img{
+    float: right;
+    width: 29%;
+    margin-top: -400px;
+    height: 300px;
+    margin-right: 70px;
+    border-radius: 100px;
+
+}
+/* footer  */
+.footerarea{
+  border: 7px solid #35670d;
+  border-radius: 118px;
+  width: 100%;
+  background-color: #5de077cc;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 18px;
+
+ 
+}
+.contact{
+ position: absolute;
+  /* border: 2px solid blue; */
+  width: 38%;
+  margin-bottom: 2px;
+  margin-left: 844px;
+}
+.image{
+  display: inline-block;
+  position: absolute;
+  margin-left: 2px;
+}
+.image img{
+  width: 100%;
+  height: 172px;
+  margin-left: 96px;
+  margin-top: 53px;
+}
+.logo img{
+  margin-top: 2px;
+  float: left;
+}
+.imgcontainer p{
+    text-align: center;
+    font-size: 25PX;
+    margin-top: 5px;
+    margin-bottom:-7px;
+</style>
+<body>
+    <form action="#">
+        <div class="imgcontainer">
+          <img src="css/img/logo.jpg" alt="Avatar" class="avatar">
+          <p><b>LOGIN</b></p>
+          <hr>
+        </div>
+
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn"><a href="index.html">cancel</a></button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+      <!-- <div class="car">
+          <img src="css/img/easyride.jpg" alt="">
+      </div> -->
+      <div class="footerarea">
+        <div class="image">
+          <img src="css/img/footer.jpg" alt="">
+       </div>
+       <div class="contact">
+         <h1>Have a Query???</h1>
+         <h2>24*7 Customer Support</h2><br>
+         <h1>Toll Free : 1800-567-789/1800-567-790</h1>
+         <h1>email:contact@easyride.com</h1>
+
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+
+      </div>
+</body>
+</html>
